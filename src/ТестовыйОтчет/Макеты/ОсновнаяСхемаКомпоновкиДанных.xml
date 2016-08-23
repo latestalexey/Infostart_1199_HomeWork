@@ -53,6 +53,12 @@
 			<field>Пол</field>
 		</item>
 	</selection>
+	<filter>
+		<item xsi:type="FilterItemComparison">
+			<left xsi:type="dcscor:Field">ДатаРождения</left>
+			<comparisonType>Filled</comparisonType>
+		</item>
+	</filter>
 	<item xsi:type="StructureItemGroup">
 		<groupItems>
 			<item xsi:type="GroupItemField">
