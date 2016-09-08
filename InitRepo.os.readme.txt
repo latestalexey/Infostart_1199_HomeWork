@@ -1,0 +1,2 @@
+Скрипт InitRepo.os следует запускать из каталога, в котором планируется развернуть репозиторий. Единственным параметром скрипта является каталог репозитория Precommit1c.
+Пример: c:\repository\Test>oscript C:\repository\Test\InitRepo.os C:\repository\precommit1c
